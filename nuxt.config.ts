@@ -5,6 +5,10 @@ export default defineNuxtConfig({
     '@nuxt/ui'
   ],
 
+  nitro: {
+    preset: 'vercel'
+  },
+
   devtools: {
     enabled: true
   },
